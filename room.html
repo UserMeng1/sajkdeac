@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Rooms</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .room-section {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+        .room-card {
+            margin-bottom: 20px;
+            border: none;
+        }
+        .room-card img {
+            border-radius: 8px 8px 0 0;
+        }
+        .room-title {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+        .room-price {
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hotel Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/room.html">Rooms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<div class="container my-5 room-section">
+    <h2 class="text-center mb-4">Our Rooms</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card room-card">
+                <img src="/img/Deluxe Room.jpg" class="card-img-top" alt="Deluxe Room">
+                <div class="card-body">
+                    <h5 class="room-title">Deluxe Room</h5>
+                    <p class="card-text">Enjoy a luxurious stay in our Deluxe Room, featuring modern amenities and stunning views.</p>
+                    <p class="room-price">$200 per night</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card room-card">
+                <img src="/img/Luxury Suite.jpg" class="card-img-top" alt="Luxury Suite">
+                <div class="card-body">
+                    <h5 class="room-title">Luxury Suite</h5>
+                    <p class="card-text">Our Luxury Suite offers the ultimate comfort with spacious interiors and premium services.</p>
+                    <p class="room-price">$350 per night</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card room-card">
+                <img src="/img/Standard Room.jpg" class="card-img-top" alt="Standard Room" >
+                <div class="card-body">
+                    <h5 class="room-title">Standard Room</h5>
+                    <p class="card-text">A cozy and comfortable room perfect for budget travelers without compromising quality.</p>
+                    <p class="room-price">$150 per night</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
